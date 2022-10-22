@@ -133,3 +133,10 @@ kubectl get pod -l app.kubernetes.io/name=nginx -o jsonpath='{.items[0].spec.con
 ```bash
 helm uninstall nginx
 ```
+
+## Other charts
+
+```bash
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install my-release bitnami/mysql
+```
