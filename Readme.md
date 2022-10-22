@@ -6,12 +6,12 @@ Helm lets you package and deploy complete applications in Kubernetes.
 
 ## Background
 
-Helm provides you the ability to install applications with a single command. A chart can contain other charts as dependencies. You can consequently deploy an entire stack with Helm. You can use Helm like docker-compose but for Kubernetes.
-A chart includes templates for various Kubernetes resources to form a complete application. This reduces the microservices complexity and simplifies their management in Kubernetes.
-Charts can be compressed and sent to a distant repository. This creates an application artifact for Kubernetes. You can also fetch and deploy existing Helm charts from repositories. This is a strong point for reusability and sharing.
-Helm maintains a history of deployed release versions in the Helm workspace. When something goes wrong, rolling back to a previous version is simply — canary release is facilitated with Helm for zero-downtime deployments.
-Helm makes the deployment highly configurable. Applications can be customized on the fly during the deployment. By changing parameters, you can use the same chart for multiple environments such as dev, staging, and production.
-Streamline CI/CD pipelines – Forward GitOps best practices.
+- Helm provides you the ability to install applications with a single command. A chart can contain other charts as dependencies. You can consequently deploy an entire stack with Helm. You can use Helm like docker-compose but for Kubernetes.
+- A chart includes templates for various Kubernetes resources to form a complete application. This reduces the microservices complexity and simplifies their management in Kubernetes.
+  Charts can be compressed and sent to a distant repository. This creates an application artifact for Kubernetes. You can also fetch and deploy existing Helm charts from repositories. This is a strong point for reusability and sharing.
+- Helm maintains a history of deployed release versions in the Helm workspace. When something goes wrong, rolling back to a previous version is simply — canary release is facilitated with Helm for zero-downtime deployments.
+- Helm makes the deployment highly configurable. Applications can be customized on the fly during the deployment. By changing parameters, you can use the same chart for multiple environments such as dev, staging, and production.
+- Streamline CI/CD pipelines – Forward GitOps best practices.
 
 ## Installation
 
